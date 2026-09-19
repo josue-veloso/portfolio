@@ -13,23 +13,23 @@ export const experiences = [
     achievements: [
       {
         title: 'Frontend Reativo (Vue.js)',
-        desc: 'Arquitetura e desenvolvimento de Single Page Applications (SPAs) modulares utilizando Vue.js e JavaScript moderno (ES6+). Implementação de formulários densos de alta complexidade (prontuários e fichas clínicas), com validações assíncronas em tempo real, gerenciamento centralizado de estado e consumo otimizado de endpoints REST, priorizando renderização fluida, acessibilidade e fiel adesão a design systems.'
+        desc: 'Desenvolvimento de Single Page Applications (SPAs) modulares para painéis clínicos. Implementação de prontuários complexos com gerenciamento de estado e validações assíncronas, garantindo uma navegação rápida e acessível.'
       },
       {
-        title: 'Backend & Arquitetura de APIs',
-        desc: 'Desenho, construção e versionamento de microsserviços e APIs com PHP (Laravel) e Node.js (TypeScript). Implementação de fluxos seguros de autenticação/autorização (JWT, middlewares), tratamento padronizado de exceções, regras de negócio complexas e estruturação em camadas (MVC, princípios de Clean Code e SOLID), visando manutenibilidade e baixo acoplamento.'
+        title: 'Backend & APIs',
+        desc: 'Arquitetura e desenvolvimento de APIs RESTful usando Laravel e Node.js. Implementação de fluxos de autenticação (JWT), tratamento padronizado de erros e regras de negócio baseadas em Clean Code.'
       },
       {
-        title: 'Banco de Dados & Performance',
-        desc: 'Modelagem e manutenção de bancos relacionais (MySQL), criação de migrations, estruturação de relacionamentos complexos e otimização de queries para evitar gargalos em rotinas de alta concorrência.'
+        title: 'Banco de Dados',
+        desc: 'Modelagem e otimização de bancos relacionais (MySQL). Criação de migrations estruturadas e otimização de queries pesadas para sustentar a plataforma mesmo em horários de pico.'
       },
       {
-        title: 'Sustentação & Diagnóstico em Produção',
-        desc: 'Investigação e resolução de causa-raiz para incidentes críticos (N2), análise sistemática de logs de erro e garantia de consistência e integridade das regras de negócio.'
+        title: 'Sustentação & Diagnóstico',
+        desc: 'Atuação direta no diagnóstico e resolução de bugs críticos (N2). Leitura sistemática de logs para encontrar a causa-raiz dos incidentes e garantir a estabilidade do sistema em produção.'
       },
       {
-        title: 'Processos & Engenharia',
-        desc: 'Atuação em squads ágeis multidisciplinares (Scrum/Kanban), colaborando em code reviews rigorosos e controle de versão com Git/GitHub (Git Flow). Integração de ferramentas de IA no fluxo diário para aceleração de testes e refatoração.'
+        title: 'Engenharia & Ferramentas',
+        desc: 'Vivência diária com metodologias ágeis (Scrum), colaboração ativa em Code Reviews via GitHub e uso de ferramentas de IA para refatoração e ganho de produtividade.'
       }
     ]
   }
@@ -38,19 +38,19 @@ export const experiences = [
 export const technologies = [
   {
     category: 'Frontend',
-    items: ['Vue.js (Composition API)', 'JavaScript (ES6+)', 'TypeScript', 'HTML5 Semântico', 'CSS3', 'Tailwind CSS', 'Consumo de APIs REST']
+    items: ['Vue.js (Composition API)', 'JavaScript (ES6+)', 'TypeScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Consumo de APIs REST']
   },
   {
     category: 'Backend & APIs',
-    items: ['PHP (Laravel)', 'Node.js', 'Express/Fastify', 'RESTful APIs', 'Autenticação/JWT', 'Clean Code & MVC']
+    items: ['PHP (Laravel)', 'Node.js', 'Express/Fastify', 'APIs RESTful', 'Autenticação JWT', 'Clean Code']
   },
   {
     category: 'Bancos de Dados',
-    items: ['MySQL', 'Modelagem Relacional', 'Otimização SQL', 'Migrations']
+    items: ['MySQL / PostgreSQL', 'Modelagem Relacional', 'Otimização SQL']
   },
   {
-    category: 'Ferramentas & Metodologias',
-    items: ['Git/GitHub', 'Docker', 'Git Flow & Code Review', 'Resolução de Incidentes', 'Scrum/Kanban', 'IA para Engenharia']
+    category: 'Ferramentas & DevOps',
+    items: ['Git / Git Flow', 'Docker', 'Code Review', 'Scrum / Kanban', 'IA para Engenharia']
   },
   {
     category: 'Idiomas',

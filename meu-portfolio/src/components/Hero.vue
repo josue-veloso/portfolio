@@ -2,22 +2,22 @@
   <section class="min-h-[70vh] flex flex-col justify-center reveal opacity-0 translate-y-16 scale-95 transition-all duration-[1200ms] cubic-bezier-out">
     <div class="space-y-8">
       
-      <h1 class="text-5xl sm:text-6xl md:text-[6.5rem] font-bold tracking-tighter leading-[1.05] pb-2 text-center md:text-left">
-        <span class="bg-gradient-to-r from-teal-400 to-cyan-500 bg-clip-text text-transparent">Josué</span> 
-        <span class="font-serif italic font-normal text-white">Veloso.</span>
+      <h1 class="text-5xl sm:text-6xl md:text-[6.5rem] font-bold tracking-tighter leading-[1.05] pb-2 text-left">
+        <span class="bg-gradient-to-r from-teal-400 to-cyan-500 bg-clip-text text-transparent pr-2">Josué</span> 
+        <span class="text-white">Veloso.</span>
       </h1>
       
-      <h2 class="flex flex-col md:flex-row md:items-center justify-center md:justify-start gap-2 md:gap-4 text-2xl md:text-3xl font-medium text-zinc-300 tracking-tight text-center md:text-left">
+      <h2 class="flex flex-col md:flex-row md:items-center justify-start gap-2 md:gap-4 text-2xl md:text-3xl font-medium text-zinc-300 tracking-tight text-left">
         <span>Desenvolvedor Fullstack</span>
         <span class="hidden md:block text-zinc-700 font-light">|</span>
         <span class="text-zinc-500 font-light text-xl md:text-2xl">Vue.js &bull; Laravel &bull; Node.js &bull; SQL</span>
       </h2>
       
-      <p class="max-w-3xl text-lg md:text-xl text-zinc-400/90 font-light leading-relaxed md:leading-loose pt-4 tracking-tight text-center md:text-left mx-auto md:mx-0">
-        Desenvolvedor Fullstack com 4 anos de experiência em ambiente de produção, atuando no desenvolvimento e sustentação de sistemas críticos no setor de saúde. Experiência sólida na construção de interfaces reativas com Vue.js, arquitetura e manutenção de APIs REST com PHP (Laravel) e Node.js/TypeScript, além de modelagem e otimização de bancos de dados relacionais (MySQL). Foco contínuo em código limpo, integridade transacional e resolução sistemática de incidentes em produção.
+      <p class="max-w-3xl text-lg md:text-xl text-zinc-400/90 font-light leading-relaxed md:leading-loose pt-4 tracking-tight text-left">
+        Desenvolvedor Fullstack com 4 anos de experiência criando aplicações web escaláveis para o setor de saúde. No front-end, construo interfaces modernas e interativas com Vue.js. No back-end (Laravel e Node.js), meu foco é garantir uma arquitetura segura, rápida e de fácil manutenção. Minha rotina vai desde a modelagem do banco de dados até a entrega de features bem estruturadas que resolvem problemas reais dos usuários.
       </p>
 
-      <div class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-6 pt-10">
+      <div class="flex flex-col sm:flex-row items-start justify-start gap-6 pt-10">
         <a href="#projetos" class="w-full sm:w-auto text-center px-8 py-3.5 bg-white text-black font-semibold rounded-full hover:scale-105 hover:bg-zinc-200 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.1)]">
           Ver Projetos
         </a>
